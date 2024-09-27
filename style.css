@@ -1,0 +1,86 @@
+/* reset default */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sofadi One", system-ui;
+}
+
+body {
+    background-color: #F8EDEB;
+    color: #333;
+}
+
+/* header/navbar */
+.header {
+    background-color: #f3d1cc;
+    padding: 20px;
+  
+}
+
+.header img {
+    float: left;
+    width: 30px;
+    margin-left: 10px;
+}   
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+
+.box {
+    display: flex;
+    gap: 25px;
+    margin-right: 10px;
+}
+
+.trigger_search {
+    background: transparent;
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0;
+    cursor: pointer;
+}
+
+.input {
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    transition: 0.25s ease-in-out all;
+    width: 0;
+    padding: 0;
+    margin-right: -25px;
+    height: 40px;
+}
+
+.input-open {
+    width: 400px;
+    padding: 0 50px;
+    margin-right: 10px;
+}
+
+/* bagian bg image */
+
+.hero {
+    background-image: url(https://mediaindonesia.com/cdn-cgi/image/width=800,quality=80/https://asset.mediaindonesia.com/news/2023/09/8a5e048b398c2ce7e0cf87d0f8569b33.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+}
