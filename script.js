@@ -11,3 +11,17 @@ triggerOpen.addEventListener('click', () => {
         triggerOpen.innerHTML = "<i class='fa fa-search'></i>";
     }
 });
+
+window.addEventListener('scroll', function(){
+    const navbar = document.getElementById('navbar');
+    
+    if (window.pageYOffset >= 100) {
+        navbar.classList.add('sticky');
+        document.getElementById('logo').style.display = 'none';
+        document.getElementById('triggerOpen').style.color = 'white';
+    }else {
+        navbar.classList.remove('sticky');
+        document.getElementById('logo').style.display = 'block';
+        document.getElementById('triggerOpen').style.color = 'black';
+    }
+});

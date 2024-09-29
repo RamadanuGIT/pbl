@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffe Shop</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <!-- navbar -->
-    <header class="header">
-      <nav class="navbar">
-        <div class="navbar-content">
-          <div>
-            <img
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffe Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <!-- NAVBAR START -->
+  <header class="header" id="navbar">
+    <nav class="navbar">
+      <div class="navbar-content">
+        <div>
+          <img id="logo" class="logo"
             src="https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/28114909/coffee-logo-3D5CE1AC6E-seeklogo.com.png"
-            width="30"
-            alt=""
-          />
-          </div>
-          <div class="box">
+            width="80" alt="" />
+        </div>
+        <div class="box">
           <ul>
             <li>Home</li>
             <li>Menu</li>
@@ -36,80 +30,121 @@
             <li>About Us</li>
             <li>Contact</li>
           </ul>
-            <input type="text" id="input" class="input" placeholder="Search..."/>
-            <button id="triggerOpen" class="trigger_search" type="button"><i class="fa fa-search icon"></i></button>
-          </div>
+          <input type="text" id="input" class="input" placeholder="Search..." />
+          <button id="triggerOpen" class="trigger_search" type="button">
+            <i class="fa fa-search icon"></i>
+          </button>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
+  <!-- NAVBAR END -->
 
-    <section class="hero">
+  <!-- BACKGROUND IMAGE START -->
+  <section class="hero">
+    <div class="curve">
+      <div class="upper">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
+          <path fill="#ffe8e4" fill-opacity="1"
+            d="M0,160L80,149.3C160,139,320,117,480,133.3C640,149,800,203,960,218.7C1120,235,1280,213,1360,202.7L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+          </path>
+        </svg>
+      </div>
       <h1>COFFEE</h1>
-      <button class="btn"><a href="#"></a>Shop Now</button>
-    </section>
+      <button class="btn"><a href="">Shop Now</a></button>
+      <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+          <path fill="#ffe8e4" fill-opacity="1"
+            d="M0,128L60,122.7C120,117,240,107,360,112C480,117,600,139,720,160C840,181,960,203,1080,192C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+          </path>
+        </svg>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- BACKGROUND IMAGE END -->
 
-    <section id="category" class="category">
-      <h2>Top category on this week</h2>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <div class="card">
-        <div class="card-items">
-          <img src="" alt="" />
-          <h2>Coffe</h2>
-          <a href="">Show more</a>
-        </div>
-        <div class="card-items">
-          <img src="" alt="" />
-          <h2>Coffe</h2>
-          <a href="">Show more</a>
-        </div>
-        <div class="card-items">
-          <img src="" alt="" />
-          <h2>Soda</h2>
-          <a href="">Show more</a>
+  <!--CATEGORY START  -->
+  <section id="category" class="category">
+    <h2>Top category on this week</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div class="card">
+      <div class="image">
+        <img
+          src="https://th-thumbnailer.cdn-si-edu.com/7xppQXAxd3nfDPudhdqR7i7tbOo=/fit-in/1600x0/filters:focal(461x237:462x238)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b5/94/b5942caf-8c09-40c2-842e-c52f99f9344f/mocha.jpg"
+          alt="" />
+        <div class="content">
+          <h1>COffee</h1>
+          <a href="">Show More</a>
         </div>
       </div>
-    </section>
-
-    <section id="shake" class="shake">
-      <h2>Milk Shake</h2>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <div class="card-shake">
-        <div class="shake-items">
-          <button>Like</button>
-          <img src="" alt="" />
-          <p>Lorem, ipsum.</p>
-          <p>price</p>
-          <a href="">BUY NOW</a>
-        </div>
-        <div class="shake-items">
-          <button>Like</button>
-          <img src="" alt="" />
-          <p>Lorem, ipsum.</p>
-          <p>price</p>
-          <a href="">BUY NOW</a>
-        </div>
-        <div class="shake-items">
-          <button>Like</button>
-          <img src="" alt="" />
-          <p>Lorem, ipsum.</p>
-          <p>price</p>
-          <a href="">BUY NOW</a>
-        </div>
-        <div class="shake-items">
-          <button>Like</button>
-          <img src="" alt="" />
-          <p>Lorem, ipsum.</p>
-          <p>price</p>
-          <a href="">BUY NOW</a>
+      <div class="image">
+        <img
+          src="https://th-thumbnailer.cdn-si-edu.com/7xppQXAxd3nfDPudhdqR7i7tbOo=/fit-in/1600x0/filters:focal(461x237:462x238)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b5/94/b5942caf-8c09-40c2-842e-c52f99f9344f/mocha.jpg"
+          alt="" />
+        <div class="content">
+          <h1>COffee</h1>
+          <a href="">Show More</a>
         </div>
       </div>
-    </section>
-
-    <section id="blog">
-      <div class="blog">
-        <div class="blog-content"></div>
+      <div class="image">
+        <img
+          src="https://th-thumbnailer.cdn-si-edu.com/7xppQXAxd3nfDPudhdqR7i7tbOo=/fit-in/1600x0/filters:focal(461x237:462x238)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b5/94/b5942caf-8c09-40c2-842e-c52f99f9344f/mocha.jpg"
+          alt="" />
+        <div class="content">
+          <h1>COffee</h1>
+          <a href="">Show More</a>
+        </div>
       </div>
-    </section>
-  </body>
-  <script src="script.js"></script>
+    </div>
+  </section>
+  <!-- CATEGORY END -->
+
+  <!-- MILK SHAKE -->
+  <section id="shake" class="shake">
+    <h2>Milk Shake</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div class="card-shake">
+      <div class="shake-items">
+        <button>Like</button>
+        <img src="" alt="" />
+        <p>Lorem, ipsum.</p>
+        <p>price</p>
+        <a href="">BUY NOW</a>
+      </div>
+      <div class="shake-items">
+        <button>Like</button>
+        <img src="" alt="" />
+        <p>Lorem, ipsum.</p>
+        <p>price</p>
+        <a href="">BUY NOW</a>
+      </div>
+      <div class="shake-items">
+        <button>Like</button>
+        <img src="" alt="" />
+        <p>Lorem, ipsum.</p>
+        <p>price</p>
+        <a href="">BUY NOW</a>
+      </div>
+      <div class="shake-items">
+        <button>Like</button>
+        <img src="" alt="" />
+        <p>Lorem, ipsum.</p>
+        <p>price</p>
+        <a href="">BUY NOW</a>
+      </div>
+    </div>
+  </section>
+  <!-- MILK SHAKE END -->
+
+  <!-- BLOG START -->
+  <section id="blog">
+    <div class="blog">
+      <div class="blog-content"></div>
+    </div>
+  </section>
+  <!-- BLOG END -->
+</body>
+<script src="script.js"></script>
+
 </html>
